@@ -1,0 +1,254 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+
+}
+body,html{
+    width: 100%;
+    height:100%;
+}
+
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.show{
+    display: block;
+}
+.topbox{
+    width: 100%;
+    position: relative;
+    background: #3d4047;
+}
+.topbox::after{
+    content: '';
+    clear:both;
+}
+.banner{
+    height: 48px;
+    width: 1200px;
+    margin: 0 auto;
+    line-height:48px;
+    color: #fff;
+    font-size:20px;
+}
+
+/*中间开始*/
+.content{
+    width: 100%;
+    height: 90% ;
+    position: relative;
+    background-color: #e9e9e9;
+}
+.con-aside{
+    height: 100%;
+    width: 16%;
+    padding-left:10px;
+    border: 1px solid #ccc;
+}
+
+.list-item{
+    width: 210px;
+    line-height:50px;
+    font-size:18px;
+    color:#333;
+    font-family: "microsoft yahei";
+    border-top:2px solid #ccc;
+    border-bottom: 2px solid #fff;
+    background-color:#e9e9e9;
+    cursor: pointer;
+
+}
+.list-item:hover{
+    background-color: #fff;
+    color: #ff7423;
+}
+
+.item-box{
+    display: none;
+    width: 100%;
+    height: 150px;
+    background-color: #eee;
+}
+.active1{
+    display: block;
+    height: 150px;
+}
+
+.contain{
+    height: 100%;
+    width:82.5%;
+    float: left;
+}
+.con-top{
+    width: 100%;
+    height: 48px;
+    border-bottom:2px solid #aaa;
+    /*background-color:#520;*/
+}
+.top-item1{
+    position: relative;
+    width: 141px;
+    height: 43px;
+    float: left;
+    margin-top:3px;
+    margin-right:6px;
+    border-right:2px solid #609;
+    border-radius:25px 25px 16px 16px ;
+    background-color: #e9e9e9;
+    box-shadow:1px 1px 1px 1px #609;
+    cursor:pointer;
+}
+.top-item{
+    display: none;
+    position: relative;
+    width: 141px;
+    height: 43px;
+    float: left;
+    margin-top:3px;
+    margin-right:6px;
+    border-right:2px solid #609;
+    border-radius:25px 25px 16px 16px ;
+    background-color: #e9e9e9;
+    box-shadow:1px 1px 1px 1px #609;
+    cursor:pointer;
+}
+.top-item .item-span{
+    position: absolute;
+    right:9px;
+    top:2px;
+    z-index: 1;
+    font-size:28px;
+}
+.item-span1{
+    display: block;
+    width: 100%;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    transition: all 0.3s ease 0s;
+}
+.lishow{
+    display: block;
+    background-color: #fff;
+}
+.bg-e9{
+    background-color: #e9e9e9;
+}
+.actical{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.box{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.boxshow{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.bg-ff{
+    display: block;
+    background-color: #fff;
+}
+.Desktop{
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+    color: #ccc;
+    text-align: center;
+    line-height:500%;
+}
+.link a
+{
+    color: #555;
+    }
+.link .a{
+    display: block;
+    height: 30px;
+    font-size:14px;
+    
+}
+/*增加一个类使点击aside里的a链接时，改变字体颜色*/
+.link .blue
+{
+    color:skyblue;
+    z-index:1;
+    }
+
+
+
+.admit{
+    width: 600px;
+    margin:100px auto;
+    
+
+}
+#add-title{
+    font:600 20px "microsoft yahei";
+    color: #000;
+}
+.ad-input{
+    height: 30px;
+    font-size:16px;
+    color: #333;
+}
+.info{
+    width: 100%;
+    font-size:18px;
+    margin-top:13px;
+}
+.in-span{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.sbm{
+    width: 100px;
+    height: 30px;
+    background-color: #ff6326;
+    margin:27px 135px;
+}
+.mana-admit{
+    margin-top:58%;
+    width: 600px;
+    height: 310px;
+}
+#mana-title{
+    font:600 20px "microsoft yahei";
+    color: #000;
+}
+#mana-title1{
+    font:600 20px "microsoft yahei";
+    color: #000;
+}
+.gv1
+{
+    width:100%;
+
+    }
+.gv1 td
+{
+    width:100px;
+    height:30px;
+    text-align:center;
+    }
+.prompt
+{
+    display:block;
+    width:270px;
+    float:right;
+    height:30px;
+    font-size:14px;
+    }

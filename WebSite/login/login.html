@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>华商学院后台登陆页面</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+    <!-- contact-form -->
+    <div class="message warning">
+        <div class="inset">
+            <div class="login-head">
+                <h1>Login </h1>
+                <div class="alert-close"></div>
+            </div>
+            <form>
+                <li>
+                    <input type="text"  value="Username"  class="username" ><a href="#" class=" icon user"></a>
+                </li>
+                <div class="clear"></div>
+                <li >
+                    <input type="password" value="Password" class="password" > <a href="#" class="icon lock"></a>
+                </li>
+                <div class="clear"></div>
+                <div class="submit">
+                    <input type="submit"  value="Sign in">
+                    <h4><a href="#">Lost your Password ?</a></h4>
+                    <div class="clear"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="clear"></div>
+    <!--- footer --->
+    <div class="footer">
+        <p>版权所有©华商学院</p>
+    </div>
+
+    <script>
+
+        //需求1：点击alert-close隐藏整个盒子
+        var close = document.getElementsByClassName("alert-close")[0];
+        var box = document.getElementsByClassName("message warning")[0];
+        close.onclick = function () {
+            box.style.display = "none";
+        }
+
+        //需求2：点击input时 input的value值为空
+        var user = document.getElementsByClassName("username")[0];
+        var paw = document.getElementsByClassName("password")[0];
+        user.onfocus= function () {
+            if(this.value==="Username"){
+                this.value ="";
+            }
+        }
+        user.onblur = function () {
+            if(this.value ===""){
+            user.value ="Username";
+            }
+        }
+       paw.onfocus= function () {
+            if(this.value==="Password"){
+                this.value ="";
+            }
+        }
+        paw.onblur = function () {
+            if(this.value ===""){
+                this.value ="Password";
+            }
+        }
+    </script>
+
+
+</body>
+</html>

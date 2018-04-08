@@ -1,0 +1,355 @@
+
+.screen
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:213%;
+    display:none;
+    transiton:all .4s linear;
+    background-color:rgba(0,0,0,.6);
+    }
+.add-info
+{
+    position:absolute;
+    top:25%;
+    left:50%;
+    margin:-250px  0 0 -250px;
+    width:500px;
+    height:500px;
+    z-index:1;
+    background-color:#fff;
+}
+.guanbi
+{
+    width:100%;
+    height:50px;
+    background-color:#ddd;
+    font-size:20px;
+    line-height:50px;
+    }
+.right
+    {
+        float:right;
+        font-size:30px;
+        margin-right:30px;
+        cursor:pointer;
+}
+.guanbi1
+{
+    width:100%;
+    height:50px;
+    background-color:#ddd;
+    font-size:20px;
+    line-height:50px;
+    }
+.right1
+    {
+        float:right;
+        font-size:30px;
+        margin-right:30px;
+        cursor:pointer;
+}
+.info input
+{
+    color:#ff6700;
+    font-size:14px;
+    float:left;
+    width:200px;
+    height:30px;
+    margin-right:10px;
+    }
+.alert-add
+{
+    width:100%;
+    position:relative;
+    height:33px;
+
+    margin-left:20px;
+    }
+.alert-add1
+{
+    width:100%;
+    position:relative;
+    height:58px;
+    margin-top:35px;
+    margin-left:40px;
+    }
+    
+    
+.r{float:right;}
+.alert-add span
+{
+    display:inline-block;
+    width:130px;
+    height:30px;
+    }
+.span1
+{
+   float:left;
+    }
+.span2
+{
+   float:right;
+   margin-right:155px;
+    }
+.span5{margin-left:82px;}
+.dizhi
+{
+    resize:none;
+    color:#555;
+    font-size:14px;
+    }
+.dizhi1
+{
+        resize:none;
+    color:#555;
+    font-size:14px;
+    margin-left:35px;
+    }
+.clearfix
+{
+    clear:both;
+    height:25px;
+    }
+.btn1
+{
+    
+    }
+
+/*内容*/
+.check-cen
+{
+    width:1226px;
+
+    margin:100px auto 100px;
+    background:#f5f5f5;    
+}
+.check-address
+{
+    width:100%;
+
+}
+.shou
+{
+    width:100%;
+    margin:20px;
+    font-size:20px;
+    font-weight:400;
+    height:60px;
+    line-height:100px;
+}
+.address-show
+{
+    width:100%;
+    margin-top:10px;
+}
+.Address
+{
+    float:left;
+    clear:both;
+}
+.Address tbody tr
+{
+        float:left;
+}
+.show-item
+{
+    width:250px;
+    height:220px;
+    background-color:#fff;
+    margin-left:20px;    
+    margin-bottom:10px;  
+    padding-left:20px;
+    cursor:pointer;
+    border:1px solid #ccc;
+    transition:all .4s linear;
+}
+.address-name
+{
+    width:100%;
+    height:35px;
+   line-height:40px;
+    font-size:25px;
+    color:#ff6700;
+}
+.address-phone
+{
+    width:100%;
+    height:30px;
+    
+    line-height:30px;
+    font-size:16px;    
+}
+.address
+{
+    width:100%;
+    height:75px;
+    line-height:30px;
+    font-size:16px;    
+}
+.show-item1
+{
+    width:250px;
+    height:220px;
+    background-color:#fff;
+    margin-left:20px;    
+    margin-bottom:10px;  
+    float:left;
+    padding-left:20px;
+    cursor:pointer;   
+    text-align:center;
+    line-height:220px;
+    font-size:30px;
+    border:1px solid #ccc;
+    color:rgba(0,0,0,0.5);
+    transition:all .4s linear;
+}
+i.item1-i
+{
+    font-size:25px;
+}
+.move
+{
+    border-color:#888;
+    }
+.slected
+{
+    border-color: #ff6700;
+}
+
+.clear
+{
+    clear:both;
+    }
+  /* 配送方式*/
+
+.send-type
+{
+    width:100%;
+    margin-top:30px;
+    height:100px;
+ 
+}
+.send-span
+{
+        font-weight:400;
+    width:100px;
+    height:50px;
+    margin-left:20px;
+    display:inline-block;
+    text-align:center;
+    line-height:92px;
+    font-size:20px; 
+}
+.way
+{
+    width:300px;
+    height:50px;
+    display:inline-block;
+    margin-left:70px;   
+    line-height:92px;
+    font-size:16px; 
+    color:#ff6700;
+}
+/*配送时间*/
+
+
+/*商品*/
+.shop-name
+{
+    width:100%;
+    margin-top:30px;
+    
+}
+.gd
+{
+    width:100%;
+    
+}
+.gd  td
+{
+    width:171px;
+    }
+.ococ
+{
+    top:16px;    
+}
+.coco
+{
+    position:absolute;
+    top:16px;    
+    left:34px;
+    width:100px;
+}
+.add-bom
+{
+    position:relative;
+    width:100%;
+    height:67px;
+    margin-top:70px;
+}
+.add-bom-btn
+{
+    border:none;
+    width:130px;
+    height:40px;
+    background-color:#ff6700;
+    color:#fff; 
+    float:right;
+    font-size:14px;
+    cursor:pointer;
+    margin-right:30px;
+}
+.zx{ top:0;left:23%;}
+.xz{ top:0;left:31%;}
+
+.l{float:left;line-height:33px;}
+.o{line-height:20px; }
+.screen1
+{
+    display:none;   
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:213%;
+    display:none;
+    z-index:1;
+    transiton:all .4s linear;
+    background-color:rgba(0,0,0,.6);
+    }
+.add-info1
+{
+    position:absolute;
+    top:25%;
+    left:50%;
+    margin:-250px  0 0 -250px;
+    width:500px;
+
+    z-index:1;
+    background-color:#fff;
+}
+.bianma1
+{
+    margin-top:0;    
+}
+/*修改提交总价格式*/
+.oxz
+{
+   top:0; 
+   left:16%;
+}
+
+/*提交的商品*/
+.shop-id1,.show-name1
+{
+    float:left;
+    display:inline-block;
+    width:80px;
+}
+show-name1
+{
+    
+}

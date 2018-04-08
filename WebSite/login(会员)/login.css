@@ -1,0 +1,237 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style: none;
+    outline: none;
+}
+
+.headerbox{
+    width: 100%;
+    position: relative;
+    margin-top:10px;
+}
+.header{
+    width: 1024px;
+    height: 60px;
+    margin:0 auto;
+}
+.header a{
+    font-size:20px;
+    line-height:90px;
+    color:#707070;
+}
+.header img{
+    display:inline-block;
+    float: left;
+    padding-right:10px;
+}
+.header span::before{
+    content: '西西商城';
+    width: 100%;
+    height: 100%;
+    border-right:1px solid #333;
+    color: rgba(0,0,0,.8);
+    font-size:40px;
+    font-family:"华文新魏";
+    padding-right:5px;
+    margin-right:5px;
+}
+.middlebox{
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+    height: 485px;
+    white-space:normal;
+    background: url("../image/login_bg.jpg") center bottom no-repeat;
+    background-size: cover;
+}
+.middlebox .wrap{
+    position: relative;
+    width: 1220px;
+    margin:0 auto;
+    background-color: #f60;
+}
+.login{
+    position: absolute;
+    top:70px;
+    right:100px;
+    /*background: #f50;*/
+}
+.login-li{
+    width: 160px;
+    height: 55px;
+    float: left;
+    text-align: center;
+    line-height:55px;
+    cursor: pointer;
+    color:#ffffff;
+    font-size:20px;
+    background-color: rgba(0,0,0,.9);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.active{
+    background-color: rgba(0,0,0,.7);
+
+}
+.clear{
+    clear: both;
+}
+.deng{
+    padding:30px 41px;
+    background: rgba(0,0,0,.7);
+}
+.input-group{
+    position: relative;
+    margin-bottom:15px;
+}
+.span1{
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+
+    background-color: rgba(255,255,255,.7);
+}
+i.span1-i{
+    font-size:12px;
+}
+.input12{
+    position: absolute;
+    width: 184px;
+    height: 38px;
+    color: #222;
+    font-size:14px;
+    padding-left:7px;
+}
+.forget{
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    float: right;
+    padding-bottom:15px;
+}
+.clear{
+    clear: both;
+}
+.submit{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: #eb4605;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+ .input1{
+
+    width: 115px;
+    height: 36px;
+    color: #222;
+    font-size:14px;
+    padding-left:7px;
+}
+
+ .login-act{
+     display: none;
+ }
+
+.bottom{
+    width: 100%;
+    min-width: 1200px;
+    height: 121px;
+    /*background-color: rgb(230,230,230);*/
+}
+.bottom a:hover{
+    color: #f42832;
+}
+/*居中*/
+.bottom-cen{
+    width: 1200px;
+    color: rgb(102,102,102);
+    line-height: 1.5;
+    padding:26px 0 34px;
+    margin:0 auto;
+}
+/*居中子盒子、*/
+.bottom-cen-area{
+    text-align: left;
+    color: rgb(164,164,164);
+    line-height: 20px;
+    font-size:14px;
+}
+
+.bottom-cen-area a{
+    text-align: left;
+    color: rgb(164,164,164);
+    line-height: 20px;
+    font-size:12px;
+}
+/*西西*/
+.bottom-logo{
+    width: 79px;
+    height: 16px;
+    padding:20px 38px 0px 0px;
+}
+.bottom-logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size:18px;
+}
+/*左浮动*/
+.fl{
+    float: left;
+}
+/*中间文字*/
+.bottom-content{
+    color: rgb(164,164,164);
+    text-align: left;
+    color: rgb(164,164,164);
+    line-height: 20px;
+    font-size:12px;
+}
+/*最下方右侧图片盒子、*/
+.bottom-img{
+    padding:15px 0 0;
+    float: right;
+}
+/*最下方右侧图片*/
+.bottom-img img{
+    width: 70px;
+    height: 24px;
+}
+.prompt
+{
+    position:absolute;
+    top:0;
+    right:-141px;
+    font-size:12px;
+    }
+.prompt2
+{
+    top:0px;
+    z-index:1;
+    font-size:12px;
+    
+    }
+    .prompt3
+{
+    top:0px;
+    z-index:1;
+    font-size:12px;
+    
+    }
+    
+    .yanzhen
+    {
+        position:absolute;
+        top:0;
+        width:100px;
+        height:40px;
+        margin-left:5px;
+        }
